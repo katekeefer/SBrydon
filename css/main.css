@@ -213,23 +213,56 @@ article .features-item-description {
   justify-content: center;
 }
 
-section .reviews {
+
+.reviews .img {
 
 }
 
-section .img {
-
-}
-
-section .reviews-text {
+.reviews-text {
 
 }
 
 
+/*----------------About Page Styles-------------*/
+
+.mission {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.mission-content {
+  
+}
+
+
+.contact-section {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 
 
 
 
+/*----------------FAQ Page Styles-------------*/
+
+
+.faq {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.faq .content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 
 
 
