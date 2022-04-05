@@ -186,10 +186,6 @@ footer .copyright {
   margin: 0 20px;
 }
 
-.section-wrapper {
-
-}
-
 aside {
   align-items: center;
   display: flex;
@@ -224,15 +220,6 @@ aside {
 
 
 
-article .fontawesome-icon {
-
-}
-
-article .features-item-description {
- 
-
-}
-
 /*--------------- Reviews Styles ---------------*/
 
 .reviews {
@@ -250,13 +237,7 @@ article .features-item-description {
   margin: 20px 0;
 }
 
-.reviews .img {
 
-}
-
-.reviews-text {
-
-}
 
 
 /*----------------About Page Styles-------------*/
@@ -409,7 +390,7 @@ article .features-item-description {
   /*----------General Styles----------*/
 
 .content-wrapper {
-  max-wdith: 640px;
+  max-width: 640px;
   margin: 100px 0;
 }
 
@@ -548,7 +529,71 @@ footer .copyright {
 
 @media only screen and (min-width: 1200px) {
 /*Desktop Styles Here*/
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+
+/*-----------Hero Section------------*/
+
+.hero-area h1 {
+  width: 60%;
 }
+
+/*------------Aside---------------*/
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/*-----------------Features----------------*/
+
+.features h2 {
+  width:90%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+
+
+/*------------------Reviews---------------*/
+
+.reviews article div {
+  width: 40%;
+}
+
+
+/*================About Page=============*/
+
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 90%;
+}
+
+
+/*================FAQ Page==============*/
+
+.faq h2 {
+  width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
