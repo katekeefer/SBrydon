@@ -143,7 +143,13 @@ textarea {
 
    }
 
-   
+   img {
+     width: 100%;
+   }
+
+   figure {
+     margin: 0;
+   }
    
 
 
@@ -176,13 +182,18 @@ header .content-wrapper {
 }
 
 header figure {
- 
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 60%;
 
 }
 
 .header-divider {
+  background: #3a3a3a;
   height: 1px;
-  padding: 20px 0;
+  margin: 10px 0 20px 0;
   width: 100%;
 
 }
@@ -196,6 +207,7 @@ header nav {
   justify-content: space-around;
   text-transform: uppercase;
   width: 60%;
+ 
 
 }
 
@@ -253,10 +265,16 @@ footer h4 {
 /*------------------Hero-Area Styles ------------------------*/
 
 .hero-area {
-  align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  margin: 0 20px;
+  
+}
+
+.hero-area {
+  background: url('../img/hero-photo.jpg') center no-repeat #333; 
+  background-size: cover;
+  min-height: 500px; 
 }
 
 .hero-area h1 {
@@ -306,6 +324,8 @@ input[type=button] {
 
 
 .features {
+  background: url('../img/picnic.png') center no-repeat;
+  background-size: cover;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -364,6 +384,7 @@ input[type=button] {
 /*----------------About Page Styles-------------*/
 
 .mission {
+  background-color: #527158;
   align-items: center;
   display: flex;
   flex-flow: row wrap;
@@ -373,6 +394,7 @@ input[type=button] {
 
 .contact-section {
   align-items: center;
+  background-color: #2a423a;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -390,6 +412,7 @@ input[type=button] {
 
 .faq {
   align-items: center;
+  background-color: #527158;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -405,13 +428,16 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;
 }
 
-
+.faq h4 {
+  line-height: 1.333;
+} 
 
 
 
@@ -515,6 +541,17 @@ input[type=button] {
   margin: 100px 0;
 }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.125em;
+}
+
+
 
 /*--------Header---------*/
 
@@ -526,6 +563,10 @@ header {
 header .content-wrapper {
   width: 100%;
   justify-content: space-between;
+}
+
+header figure {
+  width: 30%;
 }
 
 header nav {
@@ -542,6 +583,15 @@ header nav ul {
 }
 
 /*---------Hero Area---------*/
+.hero-area {
+  min-height: 600px;
+}
+
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+}
 
 /*---------Aside-----------*/
 aside .content-wrapper {
@@ -569,7 +619,7 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-  width: 50%;
+  width: 60%;
 }
 
 
@@ -582,8 +632,17 @@ aside .content-wrapper .form {
 
 }
 
+.reviews h2 {
+  width: 85%;
+}
+
 .reviews article div {
   width: 49%;
+}
+
+.reviews h3 {
+  width: 75%;
+  margin: 0;
 }
 
 /*--------Footer---------*/
@@ -607,6 +666,15 @@ footer .contact {
 footer .copyright {
     width: 100%; 
   }
+
+footer h4 {
+  font-size: 13em;
+  margin-bottom: 40px;
+}  
+
+footer p {
+  line-height: 1.285;
+}
 
 
 /*---------About Page---------*/
@@ -655,7 +723,7 @@ footer .copyright {
     max-width: 960px;
   }
 
-
+ 
 /*-----------Hero Section------------*/
 
 .hero-area h1 {
