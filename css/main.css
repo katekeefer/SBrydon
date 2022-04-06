@@ -92,6 +92,63 @@ textarea {
      width: 90%;
    }
 
+   html {
+     font-size: 16px;
+
+   }
+
+   body {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1em;
+     text-align: left;
+
+   }
+
+   ul, ol {
+     font-size: 1.125em;
+     list-style-type: none;
+
+   }
+
+   a {
+     font-size: 1.125em;
+     color: #e2e3ed;
+     text-decoration: none;
+
+   }
+
+   h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.875em;
+
+   }
+
+   h3, h4 {
+     font-family: "Poppins", sans-serif;
+     font-size: 1.125em;
+     margin: 20px 0;
+
+   }
+
+   p {
+     font-size: .875em;
+     color: #e2e3ed;
+   }
+
+   address {
+     text-decoration: none;
+     font-style: normal;
+
+   }
+
+   
+   
+
+
+
+
+
+
 /*-------------Base Header & Footer Styles----------------*/
 
 header,
