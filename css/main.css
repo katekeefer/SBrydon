@@ -101,6 +101,7 @@ textarea {
      font-family: 'Open Sans', sans-serif;
      font-size: 1em;
      text-align: left;
+     color: #e2e3ed;
 
    }
 
@@ -133,6 +134,7 @@ textarea {
    p {
      font-size: .875em;
      color: #e2e3ed;
+     line-height: 1.125em;
    }
 
    address {
@@ -157,6 +159,7 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  background-color: #202322;
 }
 
 header {
@@ -169,6 +172,7 @@ header .content-wrapper {
   flex-flow: row wrap;
   justify-content: center;
   margin: 0;
+  
 }
 
 header figure {
@@ -187,7 +191,10 @@ header nav {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
+  font-size: 1.125em;
+  font-weight: bold;
   justify-content: space-around;
+  text-transform: uppercase;
   width: 60%;
 
 }
@@ -196,11 +203,16 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
 
+header nav ul li {
+  font-size: 1.125em;
 }
 
 footer {
   flex-direction: column;
+  color:#e2e3ed;
+  text-align: center;
 }
 
 footer p {
@@ -232,6 +244,10 @@ footer .copyright {
   margin: 20px 0;
 }
 
+footer h4 {
+  font-weight: lighter;
+}
+
 /*----------------- Mobile Styles Homepage--------------------*/
 
 /*------------------Hero-Area Styles ------------------------*/
@@ -243,14 +259,47 @@ footer .copyright {
   margin: 0 20px;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins' , Helvetica;
+  font-weight: bolder;
+  line-height: 1.25em;
+}
+
 aside {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  background-color: #527158;
 
 }
 
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 
 /*--------------Features styles-----------------*/
@@ -260,7 +309,12 @@ aside {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  color: #e2e3ed;
 
+}
+
+.features h2 {
+  margin-bottom: 50px;
 }
 
 .features-items {
@@ -275,6 +329,10 @@ aside {
   margin: 30px 0;
 }
 
+.features p {
+  text-align: center;
+  margin: 0;
+}
 
 
 /*--------------- Reviews Styles ---------------*/
@@ -283,15 +341,21 @@ aside {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  background-color: #2a423a;
+  color:#e2e3ed;
+  
 }
 
 .reviews h2 {
-  padding: 40px 0 30px 0;
+  margin-bottom: 40px;
+  font-weight: lighter;
+  line-height: 1em;
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+  font-weight: lighter;
 }
 
 
