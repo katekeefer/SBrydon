@@ -720,6 +720,12 @@ footer p {
   align-items: flex-start;
 }
 
+.map figure{
+    padding-bottom: 45%;
+  
+}
+
+
 
 /*----------FAQ Page-----------*/
 
@@ -825,6 +831,10 @@ footer h4 {
 .contact-content h4 {
   font-size: 1.875em;
 }
+
+.map figure{
+  padding-bottom: 37.5%;
+
 
 /*================FAQ Page==============*/
 
