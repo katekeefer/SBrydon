@@ -291,9 +291,10 @@ footer h4 {
 .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins' , Helvetica;
-  font-weight: bolder;
+  font-weight: 500;
   line-height: 1.2em;
-}
+  padding: 20px;
+ }
 
 aside {
   align-items: center;
@@ -381,14 +382,14 @@ input[type=button] {
   flex-flow: row wrap;
   justify-content: center;
   background-color: #2a423a;
-  color:#e2e3ed;
+ 
   
 }
 
 .reviews h2 {
   margin-bottom: 40px;
   font-weight: lighter;
-  line-height: 1em;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -612,6 +613,10 @@ header nav ul {
 
 }
 
+header nav ul li {
+  font-size: 1em;
+}
+
 .header-divider {
   display: none;
 }
@@ -659,6 +664,9 @@ aside .content-wrapper .form {
   width: 60%;
 }
 
+.features i {
+  margin-bottom: 30px;
+}
 
 
 /*---------Reviews-----------*/
@@ -673,7 +681,7 @@ aside .content-wrapper .form {
   width: 85%;
 }
 
-.reviews article div {
+.reviews article div, .reviews article feature {
   width: 49%;
 }
 
@@ -689,7 +697,7 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 
-.footer-content {
+footer .footer-content {
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -712,6 +720,10 @@ footer h4 {
 
 footer p {
   line-height: 1.285;
+}
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 
@@ -790,7 +802,8 @@ footer p {
 .hero-area h1 {
   font-size: 3.75em;
   font-weight: lighter;
-  padding-top: 50px;
+  padding: 50px 0 0 220px;
+  line-height: 1.3em;
   width: 80%;
 }
 
@@ -826,12 +839,15 @@ font-size: 1.125em;
 /*------------------Reviews---------------*/
 
 .reviews article div {
-  width: 40%;
+  width: 42%;
+}
+
+.reviews figure {
+  width: 50%;
 }
 
 .reviews h2 {
   padding-bottom: 50px;
-  line-height: 1.5em;
 }
 
 footer h4 {
