@@ -690,6 +690,10 @@ aside .content-wrapper .form {
   margin: 0;
 }
 
+.reviews figure {
+  width: 45%;
+}
+
 /*--------Footer---------*/
 
 footer .content-wrapper {
