@@ -98,7 +98,7 @@ textarea {
    }
 
    body {
-     font-family: 'Open Sans', sans-serif;
+    font-family: 'League Spartan', sans-serif;
      font-size: 1em;
      text-align: left;
      color: #e2e3ed;
@@ -119,13 +119,13 @@ textarea {
    }
 
    h2 {
-     font-family: 'Poppins', sans-serif;
+    font-family: 'League Spartan', sans-serif;
      font-size: 1.875em;
 
    }
 
    h3, h4 {
-     font-family: "Poppins", sans-serif;
+    font-family: 'League Spartan', sans-serif;
      font-size: 1.125em;
      margin: 20px 0;
 
@@ -192,8 +192,6 @@ header figure {
 
 .header-divider {
   background: #3a3a3a;
-  height: 1px;
-  margin: 10px 0 20px 0;
   width: 100%;
 
 }
@@ -202,11 +200,11 @@ header nav {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
-  font-size: 1.125em;
+  font-size: .75em;
   font-weight: 500;
   justify-content: space-around;
   text-transform: uppercase;
-  width: 60%;
+  width: 90%;
  
 
 }
@@ -240,8 +238,15 @@ footer .content-wrapper {
 }
 
 footer .contact {
-  margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
+
 
 footer .social-icons {
   display: flex;
@@ -250,7 +255,7 @@ footer .social-icons {
 }
 
 footer .social-icons p {
-  background-color: #527158;
+  background-color: #63ad9a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -271,6 +276,7 @@ footer .copyright {
 
 footer h4 {
   font-weight: lighter;
+  font-size: 1.25em;
 }
 
 /*----------------- Mobile Styles Homepage--------------------*/
@@ -279,7 +285,7 @@ footer h4 {
 
 
 .hero-area {
-  background: url('../img/hero-photo.jpg') center no-repeat #333; 
+  background: url(../img/background-1.png) center no-repeat #333; 
   background-size: cover;
   background-position: center;
   min-height: 500px; 
@@ -288,47 +294,93 @@ footer h4 {
   flex-flow: row wrap;
 }
 
+.hero-area .section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .hero-area h1 {
-  font-size: 2.25em;
-  font-family: 'Poppins' , Helvetica;
-  font-weight: 500;
+  color:#4e2b75;
+  font-size: 3.5em;
+  font-family: 'Chewy', cursive;
+  font-weight: bolder;
   line-height: 1.2em;
-  padding: 20px;
+  padding: 20px 0 0 0;
+  margin: 0;
  }
 
+ .hero-area h2 {
+   color: #a91521;
+   font-size: 1.5em;
+   padding: 20px;
+   margin: 0;
+ }
+
+ .hero-area p {
+   color: #4e2b75;
+   font-size: 1.5em;
+   text-transform: uppercase;
+   padding: 0 20px;
+   margin: 0;
+ }
+
+ .hero-area .headshot {
+   padding-bottom: 25px;
+   width: 60%;
+ }
+
+ .hero-area img {
+   border: 2px solid #a91521;
+ }
+   
 aside {
   align-items: center;
+  color: black;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background-color: #527158;
+  background-color: #63ad9a;
 
 }
 
-aside .form {
-  margin-top: 30px;
+aside .content-wrapper {
+  margin: 20px;
+
 }
- 
-input[type=text] {
-  box-sizing: border-box;
-  width: 100%;
-  color: #2a423a;
-  font-style: italic;
-  padding: 1em;
-}
- 
-input[type=button] {
-  width: 100%;
-  padding: 20px 0;
-  margin-top: 20px;
-  background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.125em;
-  color: #e2e3ed;
-  border: none;
+aside p {
+  color: black;
+  font-size: 1.25em;
   text-align: center;
-  text-transform: uppercase;
+
+}
+
+aside .form, .form-description {
+  margin: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h3 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.form-description i {
+  font-size: 2em;
+
+}
+
+button {
+  border: none;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px gray;
 }
 
 
@@ -336,17 +388,39 @@ input[type=button] {
 
 
 .features {
-  background: url('../img/picnic.png') center no-repeat;
+  background: url(../img/background-1.png) center no-repeat;
   background-size: cover;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  color: #e2e3ed;
+  color: black;
 
 }
 
+.features .about-me {
+  display: flex;
+  flex-flow: column;
+}
+
 .features h2 {
-  margin-bottom: 50px;
+  margin: 20px;
+  font-size: 2.5em;
+  
+}
+
+.features p {
+  color: black;
+  font-size: 1.3em;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.features ol {
+  list-style-type: disc;
+  line-height: 2.25em;
+  font-size: 1.2em;
+  font-weight: bolder;
+
 }
 
 .features .features-items {
@@ -357,23 +431,10 @@ input[type=button] {
 }
 
 .features article {
-  width: 63%;
-  margin: 30px 0;
+  width: 90%;
+  margin: 20px;
 }
 
-.features p {
-  text-align: center;
-  margin: 0;
-}
-
-.features i {
-  font-size: 3.75em;
-  margin-bottom: 40px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /*--------------- Reviews Styles ---------------*/
 
@@ -381,23 +442,85 @@ input[type=button] {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background-color: #2a423a;
- 
+  background: url(../img/background-4.png);
   
 }
 
+.reviews .content-wrapper {
+  margin: 0 20px;
+}
+
+.container {
+  display: flex;
+  min-height: 20vh;
+  margin: 20px;
+  width: 90%;
+  flex-flow: wrap;
+
+}
+.box {
+  flex: 1;
+
+}
+  
+.box-1 {
+  padding: 20px;
+}
+
+.box-2 {
+  padding: 0px;
+  margin-top: 15px;
+}
+
+.box-3 {
+  padding: 20px;
+}
+
+.box-4 {
+  padding: 10px;
+}
+
+.box-5 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: .8em;
+  padding-top: 30px;
+}
+
+.box-5 p {
+  font-size: .5em;
+  font-style: italic;
+}
+
 .reviews h2 {
-  margin-bottom: 40px;
-  font-weight: lighter;
-  line-height: 1;
+   color:#000;
+   margin: 20px;
 }
 
 .reviews h3 {
-  width: 55%;
-  margin: 20px 0;
-  font-weight: lighter;
+  font-size: 1.5em;
+  margin: 10px 0;
+  color:#000;
+
 }
 
+.reviews p {
+  color: black;
+  font-size: 1em;
+  
+}
+
+.reviews h4 {
+  color: black;
+  margin: 5px 0;
+  font-style: italic;
+}
+
+.reviews img {
+  border: 2px solid #a91521;
+
+}
 
 
 
