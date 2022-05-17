@@ -301,6 +301,11 @@ footer h4 {
   flex-flow: row wrap;
 }
 
+.hero-area .content {
+  text-align: center;
+
+}
+
 .hero-area h1 {
   color:#4e2b75;
   font-size: 3.5em;
@@ -625,288 +630,217 @@ button {
   /*Tablet Styles Here*/
   /*----------General Styles----------*/
 
-.content-wrapper {
-  max-width: 640px;
-  margin: 100px 0;
-}
 
-h2 {
-  font-size: 2.25em;
-  line-height: 1.333em;
-}
+  /*----------Header Styles-----------*/
 
-h3 {
-  font-size: 1.5em;
-  line-height: 1.125em;
-}
-
-
-
-/*--------Header---------*/
-
-header {
-  justify-content: space-around;
-  padding: 33px 0;
-}
-
-header .content-wrapper {
-  width: 100%;
-  justify-content: space-between;
-}
-
-header figure {
-  width: 30%;
-}
-
-header nav {
-  width: 20%;
-}
-
-header nav ul {
-  justify-content: space-between;
-
-}
-
-header nav ul li {
-  font-size: 1em;
-}
-
-.header-divider {
-  display: none;
-}
-
-/*---------Hero Area---------*/
-.hero-area {
-  min-height: 600px;
-}
-
-.hero-area h1 {
-  font-size: 3em;
-  line-height: 1;
-  margin: 0;
-}
-
-/*---------Aside-----------*/
-aside .content-wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  margin: 50px 0;
-}
-
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {
-  width: 40%;
-  margin: 0;
-}
-
-
-/*---------Features----------*/
-
-.features h2 {
-  margin-bottom: 20px;
-}
-.features article {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-flow: column wrap;
-  flex-basis: 50%;
-}
-
-.features .features-item-description {
-  width: 60%;
-}
-
-.features i {
-  margin-bottom: 30px;
-}
-
-
-/*---------Reviews-----------*/
-
-.reviews article {
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.reviews h2 {
-  width: 85%;
-}
-
-.reviews article div, .reviews article feature {
-  width: 49%;
-}
-
-.reviews h3 {
-  width: 75%;
-  margin: 0;
-}
-
-.reviews figure {
-  width: 45%;
-}
-
-/*--------Footer---------*/
-
-footer .content-wrapper {
-  width: 65%;
-  margin: 100px 0;
-}
-
-footer .footer-content {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-
-footer .contact {
-  margin-bottom: 0;
-}
-
-footer .copyright {
-    width: 100%; 
-  }
-
-footer h4 {
-  font-size: 1.5em;
-  margin-bottom: 40px;
-}  
-
-footer p {
-  line-height: 1.285;
-}
-footer .social-icons {
-  width: 12.5em;
-  justify-content: space-between;
-}
-
-
+ 
 
 
 @media only screen and (min-width: 1200px) {
 /*Desktop Styles Here*/
+.content-wrapper {
+  max-width: 1200px;
+}
 
-  .content-wrapper {
-    max-width: 960px;
-  }
+/*-------Header Styles------*/
 
-  h2 {
-    font-size: 2.25em;
-   
-  }
+header {
+  padding: 20px;
+}
+
+nav {
+  width: 60%;
   
-  h3 {
-    font-size: 1.875em;
-    line-height: 1.5em;
 
-  }
+
+}
+
+ul {
+  font-size: 1.5em;
+
+}
+
+ul li {
   
-  p {
-    font-size: 1.125em;
-    line-height: 1.333;
-  }
+  
+}
 
- 
-/*-----------Hero Section------------*/
+/*--------Hero Area Styles--------*/
+
+.hero-area {
+  min-height: 600px;
+  width: 100%;
+  background: url(../img/background-8.png) center no-repeat #333; 
+  background-size: cover;
+}
+
+.hero-area .section-wrapper {
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px 20px 40px; 
+
+}
+
 
 .hero-area h1 {
-  font-size: 3.75em;
-  font-weight: lighter;
-  padding: 50px 0 0 220px;
-  line-height: 1.3em;
-  width: 80%;
+font-size: 5.5em;
+padding: 20px;
+
+}
+
+.hero-area .content {
+  padding-top: 20px;
+
+}
+
+.hero-area h2 {
+  font-size: 2.5em;
+  padding: 20px 0;
+ 
+
+}
+
+.hero-area p {
+font-size: 2.5em;
+padding: 20px 0;
+}
+
+.hero-area .headshot {
+  width: 45%;
+  padding-top:30px;
+
+
+}
+
+.headshot img {
+ width: 70%;
+ 
+
 }
 
 
+/*---------Aside Styles---------------*/
 
-
-/*------------Aside---------------*/
-
-aside .content-wrapper {
-  justify-content: space-around;
+aside .content-wrapper{
+  padding-bottom: 60px;
 }
 
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {
-  width: 30%;
+
+.form h3{
+  padding: 0 20px;
+
 }
+
+
 
 .form-description p {
-font-size: 1.125em;
+  padding: 0 20px 0 0;
+
 }
 
-/*-----------------Features----------------*/
+
+
+
+
+
+/*--------- Features Styles -------------*/
+
+.features {
+  background: #c4fff5;
+}
 
 .features h2 {
-  width:90%;
+  padding: 20px;
+  font-size: 3em;
+}
+
+.features ol {
+
+}
+
+.features ol li {
+  font-size: 1.5em;
+  line-height: 2.5em;
+}
+
+.features p {
+  margin: 0 20px 30px;
 }
 
 .features article {
-  flex-basis: 33%;
+  padding: 10px 0 80px; 
 }
 
-
-/*------------------Reviews---------------*/
-
-.reviews article div {
-  width: 42%;
+/*------------Reviews Styles ----------*/
+.reviews {
+  background: url(../img/background-4.png) center no-repeat;
+  background-size: cover;
+  
 }
 
-.reviews figure {
+.reviews h3 {
+  text-align: center;
+}
+
+.reviews .content-wrapper {
+  width: 75%;
+  height: 800px;
+}
+
+.reviews .box {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.reivews p {
+  font-size: 2em;
+}
+
+.container {
+ display: flex;
+ flex-wrap: wrap;
+  
+}
+
+.box-1 {
+  flex-basis: 20%;
+  padding: 20px 40px 10px 0;
+  margin: 20px 10px 40px 0;
+
+}
+
+.box-2 {
+  flex-basis: 20%;
+  margin-right: 530px;
+  margin-top: 60px;
+
+}
+
+.box-3 img {
+  flex-basis: 20%;
+}
+
+.box-4 {
+  flex-basis: 20%;
+}
+
+.box-5 {
+ flex-basis: 20%;
+ height: 100px;
+
+}
+
+.box-4 img {
   width: 50%;
 }
-
-.reviews h2 {
-  padding-bottom: 50px;
-}
-
-footer h4 {
-  font-size: 1.875em;
-}
-
-/*================About Page=============*/
-
-.mission h2,
-.contact-section .content-wrapper h2 {
-  width: 90%;
-  font-size: 3em;
-}
-
-.contact-content h4 {
-  font-size: 1.875em;
-}
-
-.map figure{
-  padding-bottom: 37.5%;
-
-
-/*================FAQ Page==============*/
-
-.faq h2 {
-  width: 100%;
-  font-size: 3em;
-}
-
-.faq h4, .faq p {
-  font-size: 1.125em;
-  line-height: 1;
-}
-}
+/*----------Footer Styles -------------*/
 
 
 
-
-
-
-
-
-
-
-
+}  
+ 
 
 
 @media print,
