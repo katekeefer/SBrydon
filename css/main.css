@@ -351,7 +351,7 @@
   }
   
   aside .content-wrapper {
-    margin: 20px;
+    margin: 20px 20px 60px 20px;
   
   }
   aside p {
@@ -361,7 +361,7 @@
   
   }
   
-  aside .form, .form-description {
+  aside .form {
     margin: 20px 0 0 0;
     display: flex;
     flex-flow: row wrap;
@@ -374,10 +374,7 @@
     font-size: 1.5em;
   }
   
-  .form-description i {
-    font-size: 2em;
   
-  }
   
   button {
     border: none;
@@ -721,7 +718,7 @@
   /*---------Aside Styles---------------*/
   
   aside .content-wrapper{
-    padding-bottom: 60px;
+    margin: 60px;
     max-width: 1200px;
   }
   
@@ -732,11 +729,7 @@
   }
   
   
-  
-  .form-description p {
-    padding: 0 20px 0 0;
-  
-  }
+
   
   
   
@@ -747,6 +740,11 @@
   
   .features {
     background: #c4fff5;
+  }
+
+  .features .content-wrapper {
+    display: flex;
+    width: 80%;
   }
   
   .features h2 {
